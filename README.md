@@ -29,7 +29,7 @@ Firstly, let's examine the impact of the regularization term on VAEs and AEs. It
 |:--:|
 </div>
 
-Observing the placement of the digit '0,' for instance, we notice that it is not confined to a specific region but is distributed across regions where the digits are similar to zero. This distribution contributes to another distinction between VAEs and AEs: the smooth interpolation between two encoded points in latent space. For example, when focusing on images in the middle stages of the process, in VAE, these images display characteristics resembling a blend of digits '2' and '6.' In contrast, in AE, the intermediate images only resemble one of '2' or '6,' and the output between these two clusters appears to lack inspiration from either of them.
+Observing the placement of the digit '0,' for instance, we notice that it is not confined to a specific region but is distributed across regions where the digits are similar to zero. This distribution contributes to another distinction between VAEs and AEs: the smooth interpolation between two encoded points in latent space. For example in following plots, when focusing on images in the middle stages of the process, in VAE, these images display characteristics resembling a blend of digits '2' and '6.' In contrast, in AE, the intermediate images only resemble one of '2' or '6,' and the output between these two clusters appears to lack inspiration from either of them.
 
 <div align="center">
 
